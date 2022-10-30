@@ -30,8 +30,8 @@ int main()
     if (disc < 0)
     {
         disc *= -1;
-        double eigenvalue1 = (a + d) + sqrt(disc) / 2;
-        double eigenvalue2 = (a + d) - sqrt(disc) / 2;
+        double eigenvalue1 = (a + d)/2 + sqrt(disc) / 2;
+        double eigenvalue2 = (a + d)/2 - sqrt(disc) / 2;
 
         cout << "Complex Eigenvalues" << endl;
         cout << "The eigenvalues are " << (a + d) / 2 << " + " << sqrt(disc) / 2 << "i"
