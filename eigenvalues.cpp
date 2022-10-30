@@ -19,7 +19,7 @@ int main()
 
     double disc = pow((a + d), 2) - 4 * ((a * d) - (b * c));
 
-    if (disc > 0)
+    if (disc >= 0)
     {
         double eigenvalue1 = (a + d)/2 + sqrt(disc) / 2;
         double eigenvalue2 = (a + d)/2 - disc / 2;
