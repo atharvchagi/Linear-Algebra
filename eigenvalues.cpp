@@ -21,8 +21,8 @@ int main()
 
     if (disc > 0)
     {
-        double eigenvalue1 = (a + d) + sqrt(disc) / 2;
-        double eigenvalue2 = (a + d) - disc / 2;
+        double eigenvalue1 = (a + d)/2 + sqrt(disc) / 2;
+        double eigenvalue2 = (a + d)/2 - disc / 2;
 
         cout << "The eigenvalues are " << eigenvalue2 << " and " << eigenvalue1 << "." << endl;
     }
